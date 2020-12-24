@@ -1,0 +1,7 @@
+.thoughts {
+  max-height: 70vh;
+  overflow-y: scroll;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 10px;
+}

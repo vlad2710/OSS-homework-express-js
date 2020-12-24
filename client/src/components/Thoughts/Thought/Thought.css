@@ -1,0 +1,57 @@
+.thought-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.thought {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.edit-thought {
+  font-weight: 400;
+  font-style: normal;
+  border: 0;
+  width: 50%;
+  background-color: #e8e8e8;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.thought-value,
+input {
+  width: 50%;
+  text-align: left;
+}
+
+.thought-value {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thought-value .last-edited {
+  margin: 7px 0;
+  font-size: 13px;
+  font-style: italic;
+  color: #908787;
+}
+
+.icon {
+  margin-left: 20px;
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.edit-icon {
+  background-color: blue;
+}
+
+.delete-icon {
+  background-color: red;
+}
